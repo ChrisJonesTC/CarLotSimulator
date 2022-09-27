@@ -14,6 +14,13 @@ namespace CarLotSimulator
             var myCar = new Car();
             var myVan = new Car();
             var dreamCar = new Car();
+            //Static Exercise
+            var favCar = new Car();
+            Console.WriteLine($"Number of cars in the car lot {CarLot.numberOfCars}");
+            var myTruck = new Car();
+            Console.WriteLine($"Number of cars in the car lot {CarLot.numberOfCars}");
+            var oldCar = new Car();
+            Console.WriteLine($"Number of cars in the car lot {CarLot.numberOfCars}");
 
             myCar.Year = 2016;
             myCar.Make = "Kia";
@@ -124,8 +131,6 @@ namespace CarLotSimulator
                 Console.WriteLine($"Year:  {Car.Year}  Make: {Car.Make}  Model:  {Car.Model}");
             }
 
-            //Static Exercise
-            Console.WriteLine($"Number of cars in the car lot {CarLot.numberOfCars}");
 
             //Done
 
